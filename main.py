@@ -45,7 +45,7 @@ while True:
 
     head_direction = turn(head_direction)
     apple = eat_apple(board, snake, apple)
-    set_new_position(head_direction, snake, board)
+    snake = set_new_position(head_direction, snake, board)
     screen.fill((228, 190, 207))
 
     draw(board, screen)
