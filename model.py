@@ -52,3 +52,6 @@ def eat_apple(board, snake, apple):
         snake.append(apple)
         return initialize_apple(board)
     return apple
+
+def get_score(snake):
+    return len(snake)
